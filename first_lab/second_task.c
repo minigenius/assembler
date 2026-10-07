@@ -20,8 +20,8 @@ int main(){
         "mov  bx,  cx \n\t"
         "mov edx,  %5 \n\t"
 
-        "movzx %0, ah \n\t"
-        "movzx %1, bx \n\t"
+        "movsx %0, ah \n\t"
+        "movsx %1, bx \n\t"
         "mov   %2, edx \n\t"
 
         ".att_syntax prefix\n\t"
